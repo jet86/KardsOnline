@@ -20,7 +20,7 @@
           <el-row style="text-align: center; font-size: 150%;">
             <el-col :span="5"><img src="./assets/icon.png" width="80px"/></el-col>
             <el-col :span="14">
-              <p style="margin-bottom: 10px; margin-top: 0;">Kards Online <span style="font-size: 50%;">v1.0</span></p>
+              <p style="margin-bottom: 10px; margin-top: 0;">Kards Online <span style="font-size: 50%;">v1.1</span></p>
               <el-button type="success" round v-on:click="toggleFullscreen" v-if="!fullscreen && this.$fullscreen.isEnabled"><i class="fas fa-expand-arrows-alt"></i> Go Fullscreen</el-button>
               <el-button type="danger" round v-on:click="toggleFullscreen" v-if="fullscreen && this.$fullscreen.isEnabled"><i class="fas fa-compress-arrows-alt"></i> Stop Fullscreen</el-button>
             </el-col>
